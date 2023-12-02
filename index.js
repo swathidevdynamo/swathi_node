@@ -17,9 +17,10 @@ const server = http.createServer(function listner(request, response){
     // TODO..
     if(request.url == '/home') {
         // if we make a request on /home this if block will be executed
-        response.end("Welcome to home")        
+        response.end("Welcome to home")     
     }
     console.log("Request received");
+
 });
 
 server.listen(PORT, function exec(){
